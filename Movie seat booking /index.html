@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    
+    <div class="header">
+        <div class="title">
+            Karam's Theatre 
+        </div>
+    </div>
 
     <div class="movie-container">
         <label>Pick a movie</label>
@@ -57,6 +63,7 @@
             <div class="seat"></div>
             <div class="seat"></div>
         </div>
+
         <div class="row">
             <div class="seat"></div>
             <div class="seat occupied"></div>
@@ -100,7 +107,36 @@
         </div>        
     </div>
 
-    <p class="text">You have selected <span id="count">0</span> seats, for a price of <span id="total">$0.</span></p>
+    <p class="text">You have selected <span id="count">0</span> seats, for a price of $<span id="total">  0</span>.</p>
+
+    <div class="features-container">
+        <div class="features-title">
+            <h3>
+                Features List
+            </h3>
+            <div class="feature-list">
+               <ul>
+                <li class="list-item">
+                    Movie picker
+                    <ul>
+                        <li>List that includes movie name and prices</li>
+                    </ul>
+                </li>
+                <li class="list-item">
+                    Seat selection
+                    <ul>
+                        <li>pick any seat that isn't occupied</li>
+                    </ul>
+                </li>
+                <li class="list-item">
+                    Calculator 
+                    <ul>
+                        <li>pick any seat that isn't occupied</li>
+                    </ul>
+                </li>
+           </div>
+        </div>      
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

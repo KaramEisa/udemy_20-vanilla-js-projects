@@ -16,6 +16,12 @@ body {
     margin: 0;
 }
 
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    border: #1A132F solid;
+}
+
 .movie-container {
     margin: 20px 0;
 }
